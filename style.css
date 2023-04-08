@@ -1,0 +1,148 @@
+*{
+    font-family: 'Markazi Text';
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    word-spacing: 1rem;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 22%;
+    height: 10%;
+    margin-top: 3.2rem;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #505050;
+}
+a:hover {
+    color: white;
+    background-color: #505050;
+  }
+.interface{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 5rem;
+    color: #505050;
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    margin-left: 10rem;
+}
+.pig-profile{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    width: 90%;
+    height: 100vh;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+.w-interface{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    font-size: 2rem;
+}
+.interface-btn{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-size: 2rem;
+    background-color: #505050;
+    color: white;
+    width: 17%;
+    max-height: 3rem;
+    text-align: center;
+    padding: 0.5rem;
+    border: 1px solid #505050;
+    border-radius: 1rem;
+}
+.about-me{
+    background-color: #D6DBDF;
+    max-height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 3rem;
+    justify-content: center;
+    color: #2C3E50;
+    padding: 3rem;
+}
+.about-word{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-size: 3rem;
+    align-self: center;
+    
+}
+.smaller-profile{
+    
+    border-radius: 1rem;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    width: 40%;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    justify-self: center;
+}
+.about-description{
+    font-size: 2rem;
+    justify-self: center;
+}
+@media only screen and (max-width: 770px) {
+    nav{
+        font-size: 2rem;
+    }
+    .logo{
+        width: 40%;
+        height: 10%;
+    }
+    .interface{
+        display: grid;
+    grid-template-columns: 0.75fr 0.75fr;
+    grid-template-rows: 0.75fr 0.75fr;
+    }
+    .pig-profile{
+        width: 100%;
+        height: auto;
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+    .w-interface{
+        font-size: 1rem;
+    }
+    .interface-btn{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        font-size: 0.5rem;
+        max-height: 1rem;
+  }
+  .about-me{
+    background-color: #D6DBDF;
+    max-height: 300px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    margin-top: 2rem;
+    justify-content: center;
+    color: #2C3E50;
+    padding: 1rem;
+}
+.about-description{
+    font-size: 1rem;
+}
+}
+@media only screen and (max-width: 530px){
+    .pig-profile{
+        width: 220px;
+        height: auto;
+    }
+}

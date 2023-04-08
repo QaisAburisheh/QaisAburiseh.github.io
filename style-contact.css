@@ -1,0 +1,19 @@
+*{
+    font-family: 'Markazi Text';
+}
+.navigationb{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    word-spacing: 1rem;
+    flex-wrap: wrap;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #505050;
+}
+a:hover {
+    color: white;
+    background-color: #505050;
+  }

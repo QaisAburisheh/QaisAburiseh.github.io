@@ -1,0 +1,42 @@
+*{
+    font-family: 'Markazi Text';
+}
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    word-spacing: 1rem;
+    flex-wrap: wrap;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #505050;
+}
+a:hover {
+    color: white;
+    background-color: #505050;
+  }
+.skills-boxes{
+    color: #505050;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.box-1, .box-2, .box-3{
+    background-color: #D6DBDF;
+    padding: 2rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+@media only screen and (max-width: 690px){
+.logo{
+    width: 50%;
+    height: auto;
+}
+}
